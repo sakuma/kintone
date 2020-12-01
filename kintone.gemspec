@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'kintone/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'kintone'
+  spec.name          = 'kintone-api'
   spec.version       = Kintone::VERSION
   spec.authors       = ['Rikiya Kawakami']
   spec.email         = ['ricky.k.yang@gmail.com']
@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'faraday', '>=0.9.2'
   spec.add_runtime_dependency 'faraday_middleware', '>=0.10.0'
 
-  spec.add_development_dependency 'bundler', '~> 1.5'
+  spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rspec', '~> 3'
   spec.add_development_dependency 'rubocop', '~> 0.44.1'
